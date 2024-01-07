@@ -39,7 +39,7 @@ input,button {
 .task__label,.task__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task__button {
   background: none;
@@ -109,13 +109,13 @@ input,button {
 
 /* Completed */
 .tasks-list_completed .task__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .tasks-list .task__input {
-  display: none
+  display: none;
 }
 
 .task_edit-mode .task__input {
