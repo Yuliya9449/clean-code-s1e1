@@ -3,27 +3,33 @@ ul {
   margin: 0;
   padding: 0px;
 }
+
 li {
   list-style: none;
 }
+
 input,
 button {
   outline: none;
 }
+
 /* Basic Style */
 .page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .eisenhower-matrix {
   width: 500px;
   margin: 0 auto;
   text-align: right;
 }
+
 .eisenhower-matrix__img {
   width: 100%;
 }
+
 .eisenhower-matrix__info {
   font-family: fantasy, cursive;
 }
@@ -33,16 +39,19 @@ button {
     text-align: center;
   }
 }
+
 .tasks {
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task__label,
 .task__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .task__button {
   background: none;
   border: 0px;
@@ -52,13 +61,16 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .task__button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .page__title {
   display: none;
 }
+
 .section__title {
   color: #333;
   font-weight: 700;
@@ -68,6 +80,7 @@ button {
   margin: 0;
   text-transform: uppercase;
 }
+
 .task__input {
   margin: 0;
   font-size: 18px;
@@ -80,14 +93,15 @@ button {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task__input:focus {
   color: #333;
 }
+
 /* Task list */
 .task {
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,15 +110,18 @@ button {
 .task__checkbox {
   margin: 0 10px;
 }
+
 .task > .task__label {
   padding-left: 10px;
   font-size: 18px;
 }
+
 .button-delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .button-delete__img:hover {
   transform: rotateZ(0);
 }
