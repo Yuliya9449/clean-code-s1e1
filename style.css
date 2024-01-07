@@ -21,7 +21,7 @@ button {
 }
 
 .eisenhower-matrix {
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
   text-align: right;
 }
@@ -41,7 +41,7 @@ button {
 }
 
 .tasks {
-  width: 500px;
+  max-width: 500px;
   margin: 20px auto 0;
 }
 
@@ -113,6 +113,7 @@ button {
 
 .task > .task__label {
   padding-left: 10px;
+  padding-right: 10px;
   font-size: 18px;
 }
 
