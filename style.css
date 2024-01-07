@@ -111,7 +111,7 @@ button {
   margin: 0 10px;
 }
 
-.task > .task__label {
+.task__label:not(.add-task__label) {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 18px;
@@ -134,7 +134,7 @@ button {
 }
 
 /* Edit Task */
-.tasks-list .task__input {
+.task__input:not(.add-task__input) {
   display: none;
 }
 
