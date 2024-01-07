@@ -1,13 +1,13 @@
 /* Reset Default Styles */
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li {
-  list-style:none;
+  list-style: none;
 }
-input,button{
-  outline:none;
+input,button {
+  outline: none;
 }
 /* Basic Style */
 .page {
@@ -115,13 +115,13 @@ input,button{
 
 /* Edit Task */
 .tasks-list .task__input {
-  display:none
+  display: none
 }
 
 .task_edit-mode .task__input {
-  display:inline-block;
+  display: inline-block;
 }
 
 .task_edit-mode .task__label {
-  display:none;
+  display: none;
 }
